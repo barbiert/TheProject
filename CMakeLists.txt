@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.6)
+project(TheProject)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+SET(QTCP_PROJECT_DIR ${PROJECT_SOURCE_DIR})
+set(SOURCE_FILES  src/main.cpp)
+add_executable(TheProject ${SOURCE_FILES})
